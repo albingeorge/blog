@@ -1,0 +1,1 @@
+A hexo blog which powers alb1n.com/blog
