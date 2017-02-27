@@ -68,6 +68,10 @@ w() {
 }
 ```
 
+Gist link:
+
+https://gist.github.com/albingeorge/e334eb3e33e76c5f2169d0b2b6477130
+
 
 Usage
 ----
@@ -87,10 +91,6 @@ $ w
 
 ```
 
-
-Gist link:
-
-https://gist.github.com/albingeorge/e334eb3e33e76c5f2169d0b2b6477130
 
 Limitations
 -----------
