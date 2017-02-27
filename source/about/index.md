@@ -1,6 +1,5 @@
----
-title: Introduction
-date: 2017-02-26 21:09:38
+title: "About"
+layout: "page"
 ---
 
 I'm Albin George.
