@@ -2,6 +2,10 @@
 title: Create a custom page on hexo
 date: 2017-03-02 09:43:03
 tags:
+  - reading list
+  - hexo
+  - custom page
+  - style
 ---
 
 My catch on creating a custom page on hexo
