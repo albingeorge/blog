@@ -3,7 +3,15 @@ layout: "reading-list"
 ---
 
 My reading list
----------
+===============
+
+Currently Reading
+-----------------
+ - [Socrates: A Man for Our Times](https://www.amazon.in/Socrates-Man-Times-Paul-Johnson-ebook/dp/B0052REVCY)
+
+To Read
+-------
+ - [Darwin: Portrait of a Genius](http://www.amazon.in/Darwin-Portrait-Genius-Paul-Johnson/dp/0147509777)
 
 2016
 -----
