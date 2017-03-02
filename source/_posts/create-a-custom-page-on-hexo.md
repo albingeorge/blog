@@ -69,7 +69,7 @@ I decided to go with approach #2 here. So, I created a file `themes/icarus/sourc
 }
 ```
 
-The above CSS is to hide the sidebar on the reading list page.(Yea, I'm not very good at CSS).
+The above CSS is to hide the sidebar on the reading list page(Yea, I'm not very good at CSS).
 
 
 Now, we need to add the above CSS file to our layout. Add the below line in the `layout/reading-list.ejs` file:
