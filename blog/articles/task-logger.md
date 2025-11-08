@@ -1,27 +1,25 @@
 ---
-title: Task logger
----
-
 title: "Task logger"
-layout: "post"
 tags:
   - task
   - track
   - log
   - sync
   - dropbox
+date: 2025-11-09
 ---
 
-Problem
-------
+<ArticleMetadata />
+
+# Task logger
+
+## Problem
 
 Everyday I work on multiple issues for multiple clients. So, it's difficult to track what I do on a daily basis.
 
 To track this, I wanted a solution which lets me track the stuff that I do everyday. This also needs to sync across multiple devices, so that I can continue adding my personal tasks that I do as well from my PC.
 
-
-Features
------
+## Features
 
 For this, I created a simple script which does the below:
 
@@ -31,8 +29,7 @@ For this, I created a simple script which does the below:
 
 
 
-Design decisions
-------
+## Design decisions
 
 These are the questions and the solutions that came to my mind:
 
@@ -54,8 +51,7 @@ These are the questions and the solutions that came to my mind:
     However, since I'm using Dropbox, I thought I would store it into a directory that syncs with Dropbox. This would not have the hassle of setting up the cronjob for rsync on all of my devices.
 
 
-Code
------
+## Code
 
 You can add the below snippet to your `.bash_profile` or `.bashrc` file.
 
@@ -77,8 +73,7 @@ Gist link:
 https://gist.github.com/albingeorge/e334eb3e33e76c5f2169d0b2b6477130
 
 
-Usage
-----
+## Usage
 
 To add an entry:
 
@@ -96,8 +91,7 @@ $ w
 ```
 
 
-Limitations
------------
+## Limitations
 
 1. You can not log tasks from a mobile
     - I'm okay with this, since I created this just so that I can track the tasks from work.

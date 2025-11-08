@@ -3,23 +3,12 @@
 layout: home
 
 hero:
-  name: "My blog"
-  # text: "Stuff I do"
-  tagline: Stuff I do
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  name: "Albin's blog"
+  # tagline: Stuff I do
 ---
 
+Welcome to my blog!
+
+I'm Albin George, a software engineer with a passion for designing and building backend systems that scale.
+
+In this blog, I'll publish stuff about the stuff that interest me and the things I learn.
