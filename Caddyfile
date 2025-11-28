@@ -3,7 +3,7 @@
     https_port 8443
 }
 
-blog.albingeorge.me {
+blog.albingeorge.me, http://192.168.178.26:8080 {
     root * blog/.vitepress/dist
     encode gzip
     file_server
