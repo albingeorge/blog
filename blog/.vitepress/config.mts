@@ -16,7 +16,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Articles', link: '/articles' },
       { text: 'Tags', link: '/tags' },
-      { text: 'About me', link: '/about-me' },
+      // { text: 'About me', link: '/about-me' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
 

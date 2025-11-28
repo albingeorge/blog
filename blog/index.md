@@ -7,8 +7,8 @@ hero:
   # tagline: Stuff I do
 ---
 
-Welcome to my blog!
+# Welcome to my blog
 
 I'm Albin George, a software engineer with a passion for designing and building backend systems that scale.
 
-In this blog, I'll publish stuff about the stuff that interest me and the things I learn.
+In this blog, I'll write about the stuff that interest me and the things I learn.
