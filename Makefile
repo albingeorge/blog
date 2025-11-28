@@ -11,3 +11,6 @@ build:
 
 preview:
 	npm run blog:preview
+
+deploy: build
+	caddy start --config Caddyfile

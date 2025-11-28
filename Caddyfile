@@ -1,0 +1,22 @@
+blog.albingeorge.me {
+    root * blog/.vitepress/dist
+    encode gzip
+    file_server
+
+    # Handle SPA routing - try files, then fallback to index.html
+    try_files {path} {path}/ /index.html
+
+    # Security headers
+    header {
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        X-XSS-Protection "1; mode=block"
+        Referrer-Policy "strict-origin-when-cross-origin"
+    }
+
+    # Cache static assets
+    @static {
+        path *.css *.js *.jpg *.jpeg *.png *.gif *.ico *.svg *.woff *.woff2
+    }
+    header @static Cache-Control "public, max-age=31536000, immutable"
+}
